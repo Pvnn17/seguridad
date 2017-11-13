@@ -24,7 +24,7 @@ $dUsuario = $conexion->query($datos);
 	</div>
 	<section>
 		
-		<table class="table">
+		<table class="table" border="1">
 			<tr>
 				<th>Nick</th>
 				<th>Clave</th>
