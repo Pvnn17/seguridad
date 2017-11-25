@@ -1,0 +1,16 @@
+form {
+    align-content: center;
+    width: 400px;
+    font: normal bold 14px Verdana, Arial;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+}
+
+form input {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+}

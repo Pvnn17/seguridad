@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
 	<title>REGISTRO DE NUEVOS USUARIOS</title>
 </head>
-<body>
-<form action="registrar_usuario.php" method="post">
+<body background="img\fondo.jpg">
+<form  class=form action="registrar_usuario.php" method="post" >
 	<div>
-		<label for="name"> Nombre:</label>
+		<label for="nombre"> Nombre:</label>
+		<input type="text" name="nombre" id="nombre">
+	</div>
+	
+	<br>
+	<div>
+		<label for="apellido"> Apellido:</label>
+		<input type="text" name="apellido" id="apellido">
+	</div>
+	
+	<br>
+	<div>
+		<label for="name"> Nick:</label>
 		<input type="text" name="name" id="name">
 	</div>
 
@@ -15,8 +30,11 @@
 		<label for="code"> Clave:</label>
 		<input type="password" name="code" id="code">
 	</div>
+
 	<br>
-	<div class="button">
-		<button type="submit"> Registrate!!</button>
+	
+	<div >
+		<button class="button" type="submit"> Registrate!!</button>
+		<a href="index.html"><button class="button" type="button"> Cancelar</button></a>
 	</div>
 </html>

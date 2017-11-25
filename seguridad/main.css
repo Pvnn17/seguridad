@@ -1,0 +1,37 @@
+.tabla{
+    border-bottom: 1px solid #ddd;
+    width:900px;
+    border-collapse: collapse;
+}
+
+.tabla td{
+	border:1px solid;
+	text-align: center;
+
+}
+
+.tabla td:hover {
+	font-size:17px;
+	background-color: #ea5000;
+
+}
+
+.button {
+	border-radius: 26px 26px 26px 26px;
+	-moz-border-radius: 26px 26px 26px 26px;
+	-webkit-border-radius: 26px 26px 26px 26px;
+	border: 0px solid #000000;
+	background-color: #5487D9; 
+
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .button:hover {
+    background-color: #7487D9; /* Green */
+    color: white;
+}

@@ -1,0 +1,10 @@
+formulario d inicio sesion
+en lista excluir contraseñas
+formulario de edicion de contraseñas de usuario
+ser presentable
+
+
+en vez de eliminar poner estado activado desactivado
+
+
+cuenta d usuario q fue desactivada o no esta en uso x 1 mes se puede eliminar al usuario
